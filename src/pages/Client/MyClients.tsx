@@ -26,9 +26,15 @@ const MyClients = () => {
 
 
     </div>
-    <div className='md:flex '>
-    <PieChart />
-<StoredVehicle/>
+    <div className='md:flex  gap-10 '>
+   <div className='bg-darkBlue md:w-1/2 rounded-[25px] '>
+
+   <PieChart />
+   </div>
+   <div className='bg-darkBlue md:w-1/2 rounded-[25px] '>
+   <StoredVehicle/>
+   </div>
+
     </div>
     </DefaultLayout>
    
