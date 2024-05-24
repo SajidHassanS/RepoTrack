@@ -7,7 +7,7 @@ const StoredVehicle: React.FC<ApexChartProps> = () => {
   const [series] = useState([
     {
       name: "Desktops",
-      data: [10, 41, 35, 51, 49, 62, 69, 91, 148]
+      data: [200,220,240,260,280,300,320,340]
     }
   ]);
 
@@ -50,7 +50,7 @@ const StoredVehicle: React.FC<ApexChartProps> = () => {
   });
 
   return (
-    <div className="flex flex-col items-center justify-center p-4">
+    <div className="flex flex-col  p-4">
       <div id="chart">
         <ReactApexChart options={options} series={series} type="line" height={350} />
       </div>

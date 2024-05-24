@@ -26,7 +26,7 @@ const MyClients = () => {
 
 
     </div>
-    <div className='md:flex  gap-10 '>
+    <div className='md:flex mt-16  gap-10 '>
    <div className='bg-darkBlue md:w-1/2 rounded-[25px] '>
 
    <PieChart />

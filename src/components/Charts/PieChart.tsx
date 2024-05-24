@@ -27,9 +27,9 @@ const PieChart: React.FC<ApexChartProps> = () => {
   });
 
   return (
-    <div className="flex flex-col items-center justify-center p-4">
+    <div className="flex flex-col  p-4">
       <div id="chart">
-        <ReactApexChart options={options} series={series} type="pie" width={380} />
+        <ReactApexChart options={options} series={series} type="pie" width={480} />
       </div>
       <div id="html-dist"></div>
     </div>
